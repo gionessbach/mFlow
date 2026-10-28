@@ -1,0 +1,16 @@
+{
+  "name": "mFlow",
+  "short_name": "mFlow",
+  "description": "Farben sortieren im Kreislauf",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1F2125",
+  "theme_color": "#1F2125",
+  "icons": [
+    {"src": "icon.png", "sizes": "180x180", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}
