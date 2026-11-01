@@ -1,8 +1,8 @@
 // mFlow – Offline-Speicher
 // Strategie: online immer die neueste Version laden, offline aus dem Speicher starten.
 // Bei Änderungen an der App die Versionsnummer erhöhen.
-const CACHE='mflow-v2';
-const FILES=['./','index.html','manifest.webmanifest','icon.png','icon-512.png','fredoka.woff2'];
+const CACHE='mflow-v3';
+const FILES=['./','index.html','manifest.webmanifest','icon.png','icon-512.png','icon-maskable-192.png','icon-maskable-512.png','fredoka.woff2'];
 
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()));
